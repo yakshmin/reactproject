@@ -1,0 +1,38 @@
+
+.container{
+  
+  background-color:whitesmoke;
+	border-radius: 15px;
+  box-shadow: 0 05px 8px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	position: absolute;
+	overflow: hidden;
+	width: 950px;
+  max-width: 1000%;
+	min-height: 550px;
+  backdrop-filter: blur(100px);
+  opacity:0.8;
+  align-items: center;
+}
+body{
+  background: linear-gradient(to bottom right,hsl(356, 63%, 79%),hsl(354, 70%, 98%));
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+  
+}
+.username{
+  font-family: "noto", Verdana, Geneva, Tahoma, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 100px;
+  
+  
+  font-size: 100px;
+  font-weight: normal;
+  
+  margin: 12.5px 0;
+  height: 68px;
+  
+  padding: 0 30px;
+  border-radius: 10px;
+}
